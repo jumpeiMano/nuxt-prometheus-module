@@ -1,6 +1,6 @@
 {
   "name": "nuxt-prometheus-module",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A nuxt module to export data to prometheus",
   "license": "MIT",
   "main": "lib/module.js",
@@ -15,7 +15,7 @@
     "test": "yarn lint --fix && jest"
   },
   "dependencies": {
-    "prom-client": "^11.5.3"
+    "prom-client": "^14.0.1"
   },
   "devDependencies": {
     "@babel/core": "latest",
